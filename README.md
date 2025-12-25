@@ -75,7 +75,3 @@ initial_state={
 -   `TweetState`: TypedDict defining the state schema (topic, generated tweet, evaluation, feedback, iteration count).
 -   `generate_tweet`, `evaluate_tweet`, `optimize_tweet`: Node functions for each step of the workflow.
 -   `route_evaluation`: Conditional logic to determine the next step based on evaluation results.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
